@@ -1,6 +1,6 @@
 # OS
-Operating Systems 1 project - small, functional OS kernel \
-~ Cilj ovog projekta jeste realizacija malog, ali sasvim funkcionalnog jezgra (engl.
+**Operating Systems 1 project - small, functional OS kernel** \
+Cilj ovog projekta jeste realizacija malog, ali sasvim funkcionalnog jezgra (engl.
 _kernel_) operativnog sistema koji podržava niti (engl. _multithreaded operating system_) sa
 deljenjem vremena (engl. _time sharing_). U daljem tekstu, ovakav sistem biće kratko nazivan
 samo jezgrom. \
