@@ -19,4 +19,12 @@ ugrađen u ciljni hardver. \
 Jezgro se implementira za arhitekturu procesora RISC-V i školskog računara sa ovim
 procesorom. Za implementaciju se može koristiti **asembler** za ovaj procesor i jezik **C/C++**.
 Implementirano jezgro će se izvršavati u virtuelnom okruženju – emulatoru procesora RISC-V. \
-[Projektni zadatak 2024. v1.0.pdf](https://github.com/user-attachments/files/20256115/Projektni.zadatak.2024.v1.0.pdf)
+[Projektni zadatak 2024. v1.0.pdf](https://github.com/user-attachments/files/20256115/Projektni.zadatak.2024.v1.0.pdf) \
+\
+eg. The goal of this project is to implement a small but fully functional kernel of an operating system that supports threads (multithreaded operating system) with time sharing. In the following text, this system will be briefly referred to as the kernel. \
+
+Within this project, a memory allocator and thread management need to be implemented. The kernel should provide the concept of threads, semaphores, and support for time sharing, as well as asynchronous context switching and preemption triggered by timer and keyboard interrupts. \
+
+The kernel should be implemented as a "library," so that the user program (application) and the kernel share the same address space, meaning they represent a statically linked unique program preloaded into the computer's operational memory. Concurrent processes created within the application will actually be "lightweight" processes, i.e., threads running within that program. This configuration is characteristic of embedded systems, which do not execute arbitrary programs that are loaded and run on user demand, but rather execute only the program (along with the operating system) that is already embedded in the target hardware. \
+
+The kernel is implemented for the RISC-V processor architecture and a school computer with this processor. An assembler for this processor and the C/C++ programming language can be used for the implementation. The implemented kernel will run in a virtual environment – an emulator for the RISC-V processor. \
