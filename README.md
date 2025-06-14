@@ -1,4 +1,5 @@
 # OS
+--------------------------------------------------------------------------------------------------------------------
 **Operating Systems 1 project - small, functional OS kernel** \
 Cilj ovog projekta jeste realizacija malog, ali sasvim funkcionalnog jezgra (engl.
 _kernel_) operativnog sistema koji podržava niti (engl. _multithreaded operating system_) sa
