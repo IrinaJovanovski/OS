@@ -21,7 +21,7 @@ Jezgro se implementira za arhitekturu procesora RISC-V i školskog računara sa 
 procesorom. Za implementaciju se može koristiti **asembler** za ovaj procesor i jezik **C/C++**.
 Implementirano jezgro će se izvršavati u virtuelnom okruženju – emulatoru procesora RISC-V. \
 [Projektni zadatak 2024. v1.0.pdf](https://github.com/user-attachments/files/20256115/Projektni.zadatak.2024.v1.0.pdf) \
-\
+
 ----------------------------------------------------------------------------------------------------------------------
 
 The goal of this project is to implement a small but fully functional kernel of an operating system that supports threads (multithreaded operating system) with time sharing. In the following text, this system will be briefly referred to as the kernel.
