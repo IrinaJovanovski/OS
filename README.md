@@ -21,7 +21,9 @@ procesorom. Za implementaciju se može koristiti **asembler** za ovaj procesor i
 Implementirano jezgro će se izvršavati u virtuelnom okruženju – emulatoru procesora RISC-V. \
 [Projektni zadatak 2024. v1.0.pdf](https://github.com/user-attachments/files/20256115/Projektni.zadatak.2024.v1.0.pdf) \
 \
-eg. The goal of this project is to implement a small but fully functional kernel of an operating system that supports threads (multithreaded operating system) with time sharing. In the following text, this system will be briefly referred to as the kernel.
+----------------------------------------------------------------------------------------------------------------------
+
+The goal of this project is to implement a small but fully functional kernel of an operating system that supports threads (multithreaded operating system) with time sharing. In the following text, this system will be briefly referred to as the kernel.
 
 Within this project, a memory allocator and thread management need to be implemented. The kernel should provide the concept of threads, semaphores, and support for time sharing, as well as asynchronous context switching and preemption triggered by timer and keyboard interrupts. 
 
